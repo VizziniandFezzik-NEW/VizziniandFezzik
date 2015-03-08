@@ -16,6 +16,9 @@ img{
   font-weight: 700;
   color:#E60000;
 }
+.white{
+  color:#FFF;
+}
 
 /*////Nav Styles/////*/
 #nav{
@@ -99,12 +102,16 @@ img{
 	padding:5px 0px;
 }
 
-/*////App Page Styles///////*/
+/*////Customer Page Styles///////*/
 
 .claim{
 	font-size:40px;
-	color:#6E788C;
+	color:#FFF;
 	text-align: center;
+}
+.story p{
+	font-size:30px;
+	color: #6E788C;
 }
 
 /*////Mission Page Styles///////*/
@@ -122,14 +129,16 @@ img{
 }
 
 .quote{
-	font-size:30px;
+	font-size:20px;
 	color:#6E788C;
 	text-align: center;
 	font-weight: 300;
 	font-style: italic;
+	margin-bottom: 50px;
+
 }
 .quote span{
-	font-size:30px;
+	font-size:15px;
 	color:#E60000;
 	text-align: center;
 	font-weight: 300;
@@ -159,4 +168,21 @@ img{
 	text-align: center;
 	font-weight: normal;
 	color:#E60000;
+}
+
+.callout-number{
+	text-align: center;
+	color: #E60000;
+	padding:10px;
+	border-radius: 100px;
+	font-size: 30px;
+}
+
+.step{
+	font-size: 20px;
+	margin-bottom:20px;
+}
+
+.intersplice{
+	background-color: #E60000;
 }
