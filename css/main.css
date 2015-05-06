@@ -1,0 +1,553 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* CSS RESET 
+
+/* v2.0 | 20110126
+  http://meyerweb.com/eric/tools/css/reset/ 
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* MY STYLES */
+
+/* *{margin:0; padding:0;} */
+
+.image {
+	width: 75%
+}
+
+.calendar {
+	display: none;
+} 
+
+
+.first,
+.last {
+	max-width: 145px;
+	display: inline-block;
+}
+
+.margin {
+	margin-top: 5px;
+}
+
+html, body {
+	text-align: center;
+	height: 100%;
+	font-family: 'bariol_regularregular', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	font-size: 18px;
+	line-height: 23px;
+	background-color: #ffffff;
+	-webkit-font-smoothing: antialiased;
+   }
+
+a {
+	text-decoration: none;
+}
+
+
+h1 {
+	font-family: 'bariol_boldbold';
+	font-size: 40px;
+	padding-bottom: 15px;
+	line-height: 40px;
+}
+
+h2 {
+	font-family: 'bariol_boldbold';
+	font-size: 32px;
+	padding-bottom: 15px;
+	line-height: 40px;
+}
+
+h3 {
+	font-size: 22px;
+	padding-top: 15px;
+	line-height: 28px;
+}
+
+h4 {
+	font-family: 'bariol_boldbold';
+	font-size: 32px;
+	padding-bottom: 5px;
+	line-height: 40px;
+}
+
+
+sup { 
+    vertical-align: super;
+    font-size: 18px;
+    padding-right: 2px;
+ 
+}
+
+strike {
+
+}
+
+.header {
+        float:left;
+		padding:15px 0;
+		min-width:100%;
+		color: white;
+		background-color: #800000;
+}
+
+#cta-container {
+	 background-color: #001f3f;
+	 background-attachment: fixed;
+	 color: white;
+	 
+}
+
+.cta {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-bottom: 95px;
+}
+
+.copy {
+	padding: 0 0 40px 0;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.logo {
+	padding: 50px 0;
+}
+
+.logopng {
+	max-width: 75%;
+	max-height: 75%;
+}
+
+.main-btn {
+	background-color: white;
+	font-family: 'bariol_boldbold';
+	color: #004977;
+	padding:11px 30px;
+	border-radius: 20px;
+	font-size: 22px;
+}
+
+.main-btn:hover {
+	cursor: pointer;
+	background-color: #c0e4fb;
+}
+
+.pricing {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 50px 5px;
+	text-align: center;
+	font-family: 'bariol_boldbold';
+}
+
+.plan {
+	width: 210px;
+	height: 300px;
+	border-radius: 8px;
+	background-color: #800000;
+	display: inline-block;
+	margin: 15px 22px;
+	color: white;
+	padding: 8px 0px;
+}
+
+.plan-type {
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+
+.plan-price {
+	background-color: #001f3f;
+	padding: 3px 0;
+	padding-top: 6px;
+	font-size: 44px;
+	margin-bottom: 5px;
+}
+
+.amount {
+	margin-left: -10px;
+}
+
+.tiny {
+	font-size: 16px;
+	padding-top: 3px;
+}
+		
+.feature {
+	font-size: 16px;
+	padding: 6px 0;
+}	
+
+.plan-btn {
+	padding-top: 15px;
+}
+
+.plan-btn-style {
+	background-color: white;
+	border-radius: 15px;
+	padding: 5px 35px;
+	color: #3c3c3c;
+	font-size: 16px;
+}
+
+.plan-btn-style:hover {
+	background-color: #cde7f4;
+}
+
+.plan-best {
+	width: 210px;
+	height: 300px;
+	border-radius: 8px;
+	background-color: #001f3f;
+	display: inline-block;
+	margin: 15px 22px;
+	color: white;
+	padding: 8px 0px;
+}
+
+.plan-price-best {
+	background-color: #800000;
+	padding: 3px 0;
+	padding-top: 6px;
+	font-size: 44px;
+	margin-bottom: 5px;
+}
+
+#feature-a-container {
+	background-color: #f6f8f9;
+	display: inline-block;
+	width: 100%;
+	padding: 75px 0;
+	
+}
+
+.feature-a {
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: left;
+	padding-bottom: 75px;
+}
+
+
+.feature-a-copy {
+	float: left;
+	padding-left: 10px;
+	padding-right: 50px;
+	padding-bottom: 25px;
+	padding-top: 10px;
+	max-width: 500px;
+	line-height: 29px;
+}
+
+.feature-a-image {
+	float: left;
+}
+
+.feature-button {
+	margin-top: 30px;
+}
+
+.feature-btn {
+	background-color: #88d54f;
+	padding: 10px 50px;
+	border-radius: 10px;
+	color: white;
+	font-family: 'bariol_boldbold';
+}
+
+.feature-btn:hover {
+	background-color: #63ac32;
+}
+
+#feature-b-container {
+	background-color: #ffffff;
+	display: inline-block;
+	width: 100%;
+	padding: 75px 0;
+}
+
+.feature-b {
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: left;
+	
+}
+
+.feature-b-copy {
+	float: left;
+	padding-left: 50px;
+	padding-right: 10px;
+	padding-bottom: 25px;
+	padding-top: 10px;
+	max-width: 500px;
+	line-height: 29px;
+}
+
+.feature-b-image {
+	float: left;
+}
+
+#footer-container {
+	background-color: #ffffff;
+	padding: 50px 0;
+	display: inline-block;
+	width: 100%;
+}
+
+.footer {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+
+
+#signupthurs,
+#signupfri {
+	text-align: center;	
+	background-color: #f2f2f2;
+	border-radius: 4px;
+	padding: 25px;
+	padding-bottom: 35px;	
+	max-width: 640px;
+	max-height: 10000px;
+	margin: 0 10px;
+	display: none;
+	}
+
+.size16 {
+	font-size: 17px;	
+	line-height: 28px;
+	padding-bottom: 15px;
+	color: #555555;
+	}
+
+input, button, select, textarea {
+	width: 90%;	
+	
+}
+
+.mc-field-group input {
+	margin-bottom: 15px;
+	border-radius: 4px;	
+	padding: 10px;
+	border:1px solid #9b9894;
+	text-align: center;
+	font-size: 16px;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	background-color: #41bf65;
+	border:0;
+	color: white;
+	border-radius: 4px;	
+	padding: 15px ;
+	-webkit-font-smoothing: antialiased;
+	width: 95%;
+	font-family: 'bariol_boldbold';
+}
+
+
+#book-container ul {
+	padding: 0px;
+	list-style-type: none;
+}
+
+.hide {
+	display: none;
+}
+
+
+
+#Field1,
+#foli6 {
+	padding: 12px 9px;
+	font-size: 13px;
+	width: 315px;
+	border: 1px solid #b7b7b7;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+#foli6 {
+    margin: 0 auto;
+}
+
+#saveForm {
+	background-color: #800000;
+	border: none;
+	color: white;
+	font-size: 18px;
+	padding: 10px;
+	width: 335px;
+	border-radius: 5px;
+	margin-top: 13px;
+	cursor: pointer;
+}
+
+#saveForm:hover {
+	background-color: #a53737;
+
+}
+
+#no {
+	font-size: 14px;
+	color: #646464;
+	padding-top: 10px;
+}
+
+#no a {
+	color: #646464;
+}
+
+#no a:hover {
+	text-decoration: underline;
+}
+
+/* Mobile Landscape */
+@media screen and (max-width: 934px) {
+
+.copy{
+	padding: 0 20px 40px 20px;
+}
+
+
+.feature-a {
+	text-align: center;
+	margin: 0 auto;
+	with: auto;
+}
+
+.feature-b {
+	text-align: center;
+}
+
+.feature-a-image {
+	float: none;
+	}
+
+.feature-a-copy {
+	float: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+	padding-top: 10px;
+	line-height: 29px;
+	max-width: 100%;
+}
+
+.feature-b-image {
+	float: none;
+	}
+
+.feature-b-copy {
+	float: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+	padding-top: 10px;
+	line-height: 29px;
+	max-width: 100%;
+}
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (max-width: 420px) {
+
+
+.copy{
+	padding: 0 10px 40px 0;
+}
+
+.feature-a-image{
+	display: none;
+}
+
+.feature-b-image {
+	display: none;
+}
+
+.feature-a {
+	text-align: center;
+	margin: 0 auto;
+	with: auto;
+}
+
+.feature-b {
+	text-align: center;
+}
+
+.feature-b-copy {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 25px;
+	padding-top: 10px;
+	max-width: 100%;
+	line-height: 29px;
+}
+
+}
+
